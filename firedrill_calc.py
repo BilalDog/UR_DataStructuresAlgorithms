@@ -36,16 +36,6 @@ if __name__ == "__main__":
 def section_1_integers(attendance_data, buildings, total, average, minimum, maximum):
     print_section_header("INTEGERS")
 
-    # 4 create buildings
-    attendance_data = [85, 92, 78, 90]
-    buildings = ["Building A", "Building B", "Building C", "Building D"]
-
-    # calcularions
-    total = sum(attendance_data)
-    average = total / len(attendance_data)
-    minimum = min(attendance_data)
-    maximum = max(attendance_data)
-
     print("Raw attendance data:")
     for building, count in zip(buildings, attendance_data):
         print(f"  {building}: {count} participants")
@@ -60,7 +50,6 @@ def section_1_integers(attendance_data, buildings, total, average, minimum, maxi
 def main():
     attendance_data, buildings, total, average, minimum, maximum = values()
     section_1_integers(attendance_data, buildings, total, average, minimum, maximum)
-
 
 if __name__ == "__main__":
     main()
