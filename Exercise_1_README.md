@@ -22,4 +22,4 @@ dictionaries is the part wich took longest
   deleted a building
   then finally did calculations with the dictionairy values
 
-Im sorry that I am not explaining each step of the code I created, if you have questions I'm happy to answer.
+Im sorry that I am not explaining each step of the code I created, if you have questions I'm happy to answer. Also the  Output was too long to fit it on one screenshot, so I copied it into a readable file.
