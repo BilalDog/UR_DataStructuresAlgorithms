@@ -1,5 +1,5 @@
 Exersice_1:
-I decided that creating new values on each step would be too time consuming, so I defined a function to define the needed values in
+I decided that creating new values on each step would be too time consuming, so I defined a function to set the needed values in one step
 
 After that each step of the task got its own function.
 
